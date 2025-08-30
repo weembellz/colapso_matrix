@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pip-log.txt
+
+# Datos y logs
+data/usuarios/
+data/analiticas/
+logs/
+*.log
+neuroviral/
+
+# Modelos pesados
+*.tar.gz*
+*.model
+*.weights
+*.h5
+*.pth
+gpt4all-model.tar.gz.00
+
+# USB y backups
+usb_drive/
+usb_mount/
+backups/
+recovery_action/
+
+# Configuraciones sensibles
+config.json
+*.key
+*.pem
+*.cert
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema
+.DS_Store
+Thumbs.db
